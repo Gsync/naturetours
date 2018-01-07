@@ -84,6 +84,9 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-margin-bottom-8 {
+  margin-bottom: 8rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -149,6 +152,21 @@ body {
     transform: translate(-50%, -50%);
     /* bring the text-box to center (starts from top-left */
     text-align: center; }
+
+.row {
+  max-width: 114rem;
+  background-color: #eee;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+
+[class^="col-"] {
+  float: left; }
+  [class^="col-"]:not(:last-child) {
+    margin-right: 6rem; }
+
+.col-1-of-2 {
+  width: calc((100% - 6rem) / 2); }
 
 .section-about {
   background-color: #f7f7ff;
