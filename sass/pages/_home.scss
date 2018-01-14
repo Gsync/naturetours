@@ -28,7 +28,7 @@
 }
 
 .section-book {
-    padding-left: 15rem 0;
+    padding: 15rem 0;
     background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-light);
 }
 
@@ -45,6 +45,6 @@
 
     &__form {
         width: 50%;
-        padding-left: 6rem;
+        padding: 6rem;
     }
 }
