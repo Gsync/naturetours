@@ -1,0 +1,22 @@
+{
+  "name": "naturetours",
+  "version": "1.0.0",
+  "description": "Nautre Tours Static single page site to demonstrate Advanced CSS design Concepts including SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gsync/naturetours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gsync/naturetours/issues"
+  },
+  "homepage": "https://github.com/Gsync/naturetours#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
