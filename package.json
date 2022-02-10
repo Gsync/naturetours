@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Gsync/naturetours#readme",
   "devDependencies": {
-    "node-sass": "^4.7.2"
+    "node-sass": "^7.0.0"
   }
 }
